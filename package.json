@@ -1,0 +1,11 @@
+{
+  "name": "cosmic-insights-horoscope",
+  "version": "1.0.0",
+  "description": "A professional horoscope prediction app",
+  "scripts": {
+    "start": "servor --reload"
+  },
+  "dependencies": {
+    "servor": "^4.0.2"
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmic Insights: Your Personal Horoscope</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Cosmic Insights</h1>
+    <form id="horoscopeForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="date" id="dob" required>
+      <input type="text" id="birthplace" placeholder="Place of Birth" required>
+      <button type="submit">Reveal Your Destiny</button>
+    </form>
+    <div id="result" class="hidden">
+      <h2>Your Cosmic Prediction</h2>
+      <p id="prediction"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
